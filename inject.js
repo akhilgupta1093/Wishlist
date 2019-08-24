@@ -1,6 +1,5 @@
 chrome.runtime.onMessage.addListener(function (request) {
   var website = getWebsiteName(request)
-  alert(website)
   var imageCollection = document.images
   var itemText = document.title
 
